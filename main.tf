@@ -23,6 +23,8 @@ resource "random_pet" "rg_name" {
     address_prefixes     = ["10.0.1.0/24"]
   }
   
+# new changes for workflow test
+
   # Create public IPs
   resource "azurerm_public_ip" "my_terraform_public_ip" {
     name                = "myPublicIP"
