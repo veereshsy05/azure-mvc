@@ -12,5 +12,5 @@ output "resource_group_name" {
   }
 
 output "something" {
-    value="some value"
+    value="some value or whatever"
 }
