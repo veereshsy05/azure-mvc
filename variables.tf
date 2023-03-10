@@ -12,5 +12,5 @@ variable "resource_group_location" {
 
 variable "resource_name" {
     type        = string
-    description = "test variable"
+    description = "test variable some update"
   }
