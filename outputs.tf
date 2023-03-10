@@ -10,3 +10,7 @@ output "resource_group_name" {
     value     = tls_private_key.example_ssh.private_key_pem
     sensitive = true
   }
+
+output "something" {
+    value="some value"
+}
